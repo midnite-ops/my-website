@@ -1,0 +1,17 @@
+.navbar{
+    position: fixed !important;
+    right: 10px;
+    top: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: end !important;
+    padding: 0 !important;
+    button:focus{
+        border: none;
+    }
+    .hamburger{
+        width: 30px;
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(2%) hue-rotate(244deg) brightness(102%) contrast(100%);
+    }
+}

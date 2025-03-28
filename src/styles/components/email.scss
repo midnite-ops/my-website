@@ -1,0 +1,14 @@
+.email{
+    position: fixed;
+    bottom: 50px;
+    left: 10px;
+    writing-mode: vertical-rl; /* Rotates text to vertical */
+    transform: rotate(360deg);
+    a{
+        color: white;
+        letter-spacing: 2px;
+        font-style: oblique;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,84 @@
+@use '../variables' as v;
+footer{
+    height: 100vh;
+    background:linear-gradient(to top, rgba(7, 0, 20, 0.7), transparent),
+    linear-gradient(to bottom, rgba(7, 0, 20, 0.2), transparent),
+    url('../../assets/footer/background.svg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    padding: 0px 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .footer-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+        h1{
+            font-family: v.$rubik;
+            width: 90%;
+            line-height: 70px;
+            font-size: 3rem;
+            font-weight: 700;
+            span{
+                color: v.$purple;
+            }
+        }
+        a{
+            padding: 13px 20px;
+            background-color: v.$purple;
+            border: 1px solid rgba(255,255,255, 0.2);
+            border-radius: 10px;
+            font-family: v.$poppins;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .footer-links{
+        font-family: v.$poppins;
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .links{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 20px;
+            .div-link{
+                border: 1px solid white;
+                border-radius: 10px;
+                padding: 3px;
+                img{
+                    width: 25px;
+                    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(98deg) brightness(109%) contrast(111%);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    footer{
+        padding: 0px 20px;
+        .footer-header{
+            h1{
+                width: 100%;
+                font-size: 2.5rem;
+                line-height: 60px;
+            }
+        }
+        .footer-links{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}

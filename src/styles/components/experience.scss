@@ -1,0 +1,72 @@
+@use '../variables' as v;
+.experience{
+    padding: 0px 100px;
+    height: 500px;
+    margin-top: 20%;
+    color: white;
+    background: linear-gradient(to right, rgba(7, 0, 20, 1), rgba(7, 0, 20, 0.5)), 
+    linear-gradient(to top, rgba(7, 0, 20, 0.9), transparent),linear-gradient(to bottom, rgba(7, 0, 20, 0.9), transparent),
+     url('../../assets/experience/background.svg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    .experience-header{
+        border-bottom: 0.5px solid white;
+        margin-bottom: 100px;
+        p{
+            font-family: v.$poppins;
+        }
+    }
+    .experience-set{
+        display: flex;
+        gap: 200px;
+    }
+    .experience-niche{
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: v.$rubik;
+    }
+    .experience-niche-skills{
+        width: 50%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap: 70px;
+        column-gap: 30px;
+        font-weight: 600;
+        font-size: 1.125rem;
+        font-family: v.$poppins;
+        div{
+            white-space: nowrap;
+            img{
+                width: 60px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .experience{
+        height: auto;
+        padding: 0px 20px;
+        margin-top: 30%;
+        .experience-header{
+            margin-bottom: 50px;
+        }
+        .experience-set{
+            flex-direction: column;
+            gap: 50px;
+            .experience-niche-skills{
+                grid-template-columns: auto auto;
+                row-gap: 35px;
+                width: 100%;
+                div{
+                    img{
+                        width: 35px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

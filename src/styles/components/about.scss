@@ -1,0 +1,48 @@
+@use '../variables' as v;
+.about{
+    padding: 0px 100px;
+    color: white;
+    margin-top: 10%;
+    .about-header{
+        border-bottom: 0.5px solid white;
+        margin-bottom: 50px;
+        p{
+            font-family: v.$poppins;
+        }
+    }
+    .about-content{
+        display: flex;
+        align-items: start;
+        gap: 200px;
+        .about-content-header{
+            width: max-content;
+            h1{
+                font-family: v.$rubik;
+                font-size: 3rem;
+                white-space: no-wrap;
+            }
+        }
+        .about-details{
+            width: 50%;
+            p{
+                font-family: v.$poppins;
+                line-height: 30px;
+                font-size: 1.125rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .about{
+        padding: 0px 20px;
+        margin-top: 20%;
+        .about-content{
+            flex-direction: column;
+            gap: 50px;
+            .about-details{
+                width: 100%;
+            }
+        }
+    }
+}
