@@ -8,7 +8,7 @@ import framerIcon from '../assets/experience/framer-icon.webp';
 import gitIcon from '../assets/experience/git-icon.webp';
 function Experience (){
     return(
-        <div className="experience">
+        <div className="experience" id='experience'>
             <div className='experience-header'>
                 <p>My Stack</p>
             </div>

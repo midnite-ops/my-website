@@ -4,11 +4,11 @@ import Navbar from './Navbar';
 import Email from './Email';
 function Hero(){
     return(
-        <motion.div className="hero"
+        <motion.div className="hero" id='home'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}>
-            {/* <Navbar /> */}
+            <Navbar />
             <Email />
             <div className="hero-body">
                 <div className='hero-content'>

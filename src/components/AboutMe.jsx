@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';;
 
 function AboutMe(){
     return(
-        <motion.div className="about"
+        <motion.div className="about" id='about'
         initial={{opacity: 0}}
         whileInView={{
             opacity: 1, 
