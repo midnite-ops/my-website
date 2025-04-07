@@ -82,3 +82,12 @@ footer{
         }
     }
 }
+
+@media (min-width: 576px) and (max-width: 768px){
+    footer{
+        padding: 0px 10px;
+        .footer-links{
+            padding: 0px 50px;
+        }
+    }  
+}

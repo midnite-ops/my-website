@@ -77,42 +77,44 @@ function Navbar() {
           </button>
         </div>
         <div className="offcanvas-body nav-body">
-          <div className="social">
-            <h3 className="social-header">Social</h3>
+          <div className="nav-body-content">
+            <div className="social">
+              <h3 className="social-header">Social</h3>
 
-              <a href="https://github.com/midnite-ops" className="nav-link" target="_blank">Github</a>
+                <a href="https://github.com/midnite-ops" className="nav-link" target="_blank">Github</a>
+              
+                <a href="https://www.linkedin.com/in/oyims-jesse" className="nav-link" target="_blank">LinkedIn</a>
+
+                <a href="https://x.com/jesseoyims" className="nav-link" target="_blank">Twitter</a>
+
+                <a href="" className="nav-link" target="_blank">Resume</a>
             
-              <a href="https://www.linkedin.com/in/oyims-jesse" className="nav-link" target="_blank">LinkedIn</a>
-
-              <a href="https://x.com/jesseoyims" className="nav-link" target="_blank">Twitter</a>
-
-              <a href="" className="nav-link" target="_blank">Resume</a>
-          
-            
-          </div>
-          <div className="menu">
-            <h3 className="menu-header">Menu</h3>
-
-            <div className="menu-link">
-              <div className="color-ball ball1"></div>
-              <a href="#home" className="nav-link" data-bs-target="#offcanvasNavbar">Home</a>
+              
             </div>
+            <div className="menu">
+              <h3 className="menu-header">Menu</h3>
 
-            <div className="menu-link">
-              <div className="color-ball ball2"></div>
-              <a href="#about" className="nav-link" data-bs-target="#offcanvasNavbar">About</a>
+              <div className="menu-link">
+                <div className="color-ball ball1"></div>
+                <a href="#home" className="nav-link" data-bs-target="#offcanvasNavbar">Home</a>
+              </div>
+
+              <div className="menu-link">
+                <div className="color-ball ball2"></div>
+                <a href="#about" className="nav-link" data-bs-target="#offcanvasNavbar">About</a>
+              </div>
+
+              <div className="menu-link">
+                <div className="color-ball ball3"></div>
+                <a href="#projects" className="nav-link" data-bs-target="#offcanvasNavbar">Projects</a>
+              </div>
+
+              <div className="menu-link">
+                <div className="color-ball ball4"></div>
+                <a href="#experince" className="nav-link" data-bs-target="#offcanvasNavbar">Experience</a>
+              </div>
+
             </div>
-
-            <div className="menu-link">
-              <div className="color-ball ball3"></div>
-              <a href="#projects" className="nav-link" data-bs-target="#offcanvasNavbar">Projects</a>
-            </div>
-
-            <div className="menu-link">
-              <div className="color-ball ball4"></div>
-              <a href="#experince" className="nav-link" data-bs-target="#offcanvasNavbar">Experience</a>
-            </div>
-
           </div>
         </div>
       </div>

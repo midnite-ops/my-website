@@ -3,12 +3,11 @@ import xertis from '../assets/projects/xertis.jpg';
 import linkImg from '../assets/projects/link-icon.svg';
 import zelle from '../assets/projects/zelle-image.png';
 import blackjack from '../assets/projects/blackjack-image.jpeg';
-import "bootstrap/dist/css/bootstrap.min.css";  
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
 
 function Projects(){
     return(
-        <div className="project container" id='projects'>
+        <div className="project" id='projects'>
             <h1>My recent <span>Projects</span></h1>
             <div className="project-body">
                 <div className="card card-item">
@@ -30,7 +29,7 @@ function Projects(){
                     <div className="card-body ps-0">
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <a href="https://xertis.vercel.app" target='_blank'>
+                    <a href="https://midnite-ops.github.io/zelle-clone/" target='_blank'>
                         See project
                         <img src={linkImg} alt="a link image" />
                     </a>
@@ -41,7 +40,7 @@ function Projects(){
                     <div className="card-body ps-0">
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <a href="https://xertis.vercel.app" target='_blank'>
+                    <a href="https://midnite-ops.github.io/Black-jack/" target='_blank'>
                         See project
                         <img src={linkImg} alt="a link image" />
                     </a>

@@ -23,7 +23,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 60px;
+        .nav-body-content{
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
         .social, .menu{
             display: flex;
             flex-direction: column;
@@ -71,10 +75,14 @@
             height: 100dvh;
         }
         .nav-body{
-            flex-direction: column-reverse;
-            justify-content: start;
             align-items: start;
+            justify-content: start;
             padding-left: 30px;
+            .nav-body-content{
+                flex-direction: column-reverse;
+                justify-content: start;
+                align-items: start;
+            }
         }
     }
 }
