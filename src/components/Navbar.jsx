@@ -111,7 +111,7 @@ function Navbar() {
 
               <div className="menu-link">
                 <div className="color-ball ball4"></div>
-                <a href="#experince" className="nav-link" data-bs-target="#offcanvasNavbar">Experience</a>
+                <a href="#experience" className="nav-link" data-bs-target="#offcanvasNavbar">Experience</a>
               </div>
 
             </div>
