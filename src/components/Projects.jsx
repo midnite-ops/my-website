@@ -1,8 +1,8 @@
 import '../styles/components/projects.scss';
 import xertis from '../assets/projects/xertis.jpg';
 import linkImg from '../assets/projects/link-icon.svg';
-import zelle from '../assets/projects/zelle-image.png';
-import blackjack from '../assets/projects/blackjack-image.jpeg';
+import desert from '../assets/projects/preview.jpg';
+import blackJack from '../assets/projects/blackjack-image.jpeg';
 
 
 function Projects(){
@@ -11,7 +11,7 @@ function Projects(){
             <h1>My recent <span>Projects</span></h1>
             <div className="project-body">
                 <div className="card card-item">
-                    <img src={xertis} className="card-img-top xertis-img" alt="xertis image"/>
+                    <img src={xertis} className="card-img-top xertis-img project-img" alt="xertis image"/>
                     <div className="card-body ps-0">
                         <h5 className='card-title text-start text-white'>Xertis</h5>
                         <p className="card-text ">
@@ -25,9 +25,12 @@ function Projects(){
                 </div>
 
                 <div className="card card-item">
-                    <img src={zelle}  className="card-img-top xertis-img" alt="xertis image"/>
+                    <img src={blackJack}  className="card-img-top xertis-img project-img" alt="xertis image"/>
                     <div className="card-body ps-0">
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         <h5 className='card-title text-start text-white'>BlackJack</h5>
+                        <p className="card-text">
+                            A browser-based Blackjack game built with JavaScript. It features real-time score tracking, dealer logic, and responsive gameplay designed to improve my programming skills.
+                        </p>
                     </div>
                     <a href="https://midnite-ops.github.io/zelle-clone/" target='_blank'>
                         See project
@@ -36,11 +39,14 @@ function Projects(){
                 </div>
 
                 <div className="card card-item ">
-                    <img src={blackjack}  className="card-img-top xertis-img" alt="xertis image"/>
+                    <img src={desert}  className="card-img-top xertis-img" alt="xertis image"/>
                     <div className="card-body ps-0">
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                         <h5 className='card-title text-start text-white'>Desert menu</h5>
+                        <p className="card-text">
+                            The Dessert Checkout Menu is a responsive UI component that lets users easily add desserts during checkout. It was designed to improve user experience and boost last-minute sales.
+                        </p>
                     </div>
-                    <a href="https://midnite-ops.github.io/Black-jack/" target='_blank'>
+                    <a href="https://midnite-ops.github.io/Dessert-Menu/" target='_blank'>
                         See project
                         <img src={linkImg} alt="a link image" />
                     </a>

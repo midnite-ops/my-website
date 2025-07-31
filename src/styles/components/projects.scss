@@ -29,6 +29,10 @@
                 border-radius: 10px;
                 height: 40%;
                 object-fit: cover;
+                object-position: center;
+            }
+            .xertis-img:not(.project-img){
+                object-position: top;
             }
             a{
                 color: white;
