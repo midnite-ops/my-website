@@ -2,7 +2,7 @@ import '../styles/components/projects.scss';
 import xertis from '../assets/projects/xertis.jpg';
 import linkImg from '../assets/projects/link-icon.svg';
 import desert from '../assets/projects/preview.jpg';
-import blackJack from '../assets/projects/blackjack-image.jpeg';
+import blackJack from '../assets/projects/neofi.png';
 
 
 function Projects(){
@@ -27,12 +27,12 @@ function Projects(){
                 <div className="card card-item">
                     <img src={blackJack}  className="card-img-top xertis-img project-img" alt="xertis image"/>
                     <div className="card-body ps-0">
-                         <h5 className='card-title text-start text-white'>BlackJack</h5>
+                         <h5 className='card-title text-start text-white'>NeoFi</h5>
                         <p className="card-text">
-                            A browser-based Blackjack game built with JavaScript. It features real-time score tracking, dealer logic, and responsive gameplay designed to improve my programming skills.
+                            A Web3 landing page for a fictional DeFi platform called NeoFi. The design is modern and sleek, with a focus on user experience and ease of navigation.
                         </p>
                     </div>
-                    <a href="https://midnite-ops.github.io/zelle-clone/" target='_blank'>
+                    <a href="https://neo-fi-black.vercel.app" target='_blank'>
                         See project
                         <img src={linkImg} alt="a link image" />
                     </a>
