@@ -8,6 +8,7 @@ import framerIcon from "../assets/experience/framer-icon.webp";
 import gitIcon from "../assets/experience/git-icon.webp";
 import typescriptIcon from "../assets/experience/typescript.png";
 import tailwindIcon from '../assets/experience/tailwind.svg'
+import electron from '../assets/experience/electron.svg';
 function Experience() {
   return (
     <div className="experience" id="experience">
@@ -30,11 +31,7 @@ function Experience() {
             Framer Motion
           </div>
           <div>
-            <img src={tailwindIcon} alt="a bootstrap icon" className="mt-4"/>
-            Tailwindcss
-          </div>
-          <div>
-            <img src={bootstrapIcon} alt="a bootstrap icon" />
+            <img src={bootstrapIcon} alt="a bootstrap icon" className="mt-2"/>
             Bootstrap
           </div>
           <div>
@@ -48,6 +45,14 @@ function Experience() {
           <div>
             <img src={gitIcon} alt="a bootstrap icon" />
             Git
+          </div>
+          <div>
+            <img src={electron} alt="a javascript icon"/>
+            Electron
+          </div>
+          <div>
+            <img src={tailwindIcon} alt="a bootstrap icon" className="mt-0"/>
+            Tailwindcss
           </div>
         </div>
       </div>
