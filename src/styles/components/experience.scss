@@ -28,10 +28,6 @@
     }
     .experience-niche-skills{
         width: 50%;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        row-gap: 70px;
-        column-gap: 30px;
         font-weight: 600;
         font-size: 1.125rem;
         font-family: v.$poppins;
@@ -40,6 +36,7 @@
             img{
                 width: 60px;
                 margin-right: 20px;
+                margin-bottom: 10px;
             }
         }
     }
@@ -57,8 +54,6 @@
             flex-direction: column;
             gap: 50px;
             .experience-niche-skills{
-                grid-template-columns: auto auto;
-                row-gap: 35px;
                 width: 100%;
                 div{
                     img{
@@ -85,9 +80,6 @@
                 font-size: 2.5rem;
             }
             .experience-niche-skills{
-                grid-template-columns: auto auto;
-                row-gap: 35px;
-                column-gap: 10px;
                 width: 100%;
                 div{
                     img{
@@ -114,9 +106,6 @@
                 font-size: 2.5rem;
             }
             .experience-niche-skills{
-                grid-template-columns: auto auto;
-                row-gap: 35px;
-                column-gap: 10px;
                 div{
                     img{
                         width: 35px;
@@ -142,9 +131,6 @@
                 font-size: 2.5rem;
             }
             .experience-niche-skills{
-                grid-template-columns: auto auto;
-                row-gap: 35px;
-                column-gap: 10px;
                 div{
                     img{
                         width: 50px;
