@@ -16,7 +16,7 @@ function Experience() {
       </div>
       <div className="experience-set">
         <div className="experience-niche">FRONTEND</div>
-        <div className="experience-niche-skills grid  grid-cols-3 md:grid-cols-4 gap-x-5 gap-y-8">
+        <div className="experience-niche-skills grid  grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-8">
           <div>
             <img src={javascriptIcon} alt="a javascript icon" />
             Javascript

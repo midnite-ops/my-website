@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 import Email from "./Email";
 import { getHoursWorked } from "../utils/getHoursWorked";
+import { useEffect, useState } from "react";
+import { p } from "framer-motion/client";
 function Hero() {
-  const stats = async () => {
-     const message = await getHoursWorked();
-     console.log(message)
-  };
-
+  const [codingTime, setCodingTime] = useState(null);
+  useEffect(() => {
+    getHoursWorked().then(setCodingTime);
+  }, []);
 
   return (
     <motion.div
@@ -36,11 +37,15 @@ function Hero() {
             <p>Years of Experience</p>
           </div>
           <div>
-            <h1>5+</h1>
+            <h1>6</h1>
             <p>Completed Projects</p>
           </div>
           <div>
-            <h1>10K+</h1>
+            <h1>
+              {codingTime && codingTime.human_readable_total_including_other_language
+                ? codingTime.human_readable_total_including_other_language.split(" ")[0]
+                : <p className="text-lg">Loading...</p>}
+            </h1>
             <p>Hours Worked</p>
           </div>
         </div>
