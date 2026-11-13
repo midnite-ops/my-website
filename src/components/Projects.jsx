@@ -5,7 +5,7 @@ import desert from "../assets/projects/preview.jpg";
 import neofi from "../assets/projects/neofi.png";
 import tionlabs from '../assets/projects/tionlabs.png'
 import adessglobal from '../assets/projects/adessglobal.png'
-import pixelLog from '../assets/projects/Pixellog.png'
+import pixelLog from '../assets/projects/PixelLog.png'
 import { useState } from "react";
 
 function Projects() {
